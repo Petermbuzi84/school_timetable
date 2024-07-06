@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Math",
+    "code": 121,
+    "category": "mathematics",
+    "workload": {
+      "f1": {"work": 4},
+      "f2": {"work": 4},
+      "f3": {"work": 5},
+      "f4": {"work": 5}
+    }
+  },
+  {
+    "name": "Eng",
+    "code": 101,
+    "category": "language",
+    "workload": {
+      "f1": {"work": 4},
+      "f2": {"work": 5},
+      "f3": {"work": 6},
+      "f4": {"work": 6}
+    }
+  },
+  {
+    "name": "Kisw",
+    "code": 102,
+    "category": "language",
+    "workload": {
+      "f1": {"work": 6},
+      "f2": {"work": 7},
+      "f3": {"work": 7},
+      "f4": {"work": 7}
+    }
+  },
+  {
+    "name": "Chem",
+    "code": 233,
+    "category": "science",
+    "workload": {
+      "f1": {"work": 5},
+      "f2": {"work": 5},
+      "f3": {"work": 5},
+      "f4": {"work": 5}
+    }
+  },
+  {
+    "name": "Bio",
+    "code": 231,
+    "category": "science",
+    "pair": {
+      "subject": 232,
+      "paired": "False"
+    },
+    "workload": {
+      "f1": {"work": 4},
+      "f2": {"work": 4},
+      "f3": {"work": 5},
+      "f4": {"work": 5}
+    }
+  },
+  {
+    "name": "Phy",
+    "code": 232,
+    "category": "science",
+    "pair": {
+      "subject": 231,
+      "paired": "False"
+    },
+    "workload": {
+      "f1": {"work": 4},
+      "f2": {"work": 4},
+      "f3": {"work": 5},
+      "f4": {"work": 5}
+    }
+  },
+  {
+    "name": "Geo",
+    "code": 312,
+    "category": "humanity",
+    "pair": {
+      "subject": 311,
+      "paired": "False"
+    },
+    "workload": {
+      "f1": {"work": 3},
+      "f2": {"work": 5},
+      "f3": {"work": 4},
+      "f4": {"work": 4}
+    }
+  },
+  {
+    "name": "Hist",
+    "code": 311,
+    "category": "humanity",
+    "pair": {
+      "subject": 312,
+      "paired": "False"
+    },
+    "workload": {
+      "f1": {"work": 3},
+      "f2": {"work": 5},
+      "f3": {"work": 4},
+      "f4": {"work": 4}
+    }
+  },
+  {
+    "name": "CRE",
+    "code": 313,
+    "category": "humanity",
+    "workload": {
+      "f1": {"work": 3},
+      "f2": {"work": 7},
+      "f3": {"work": 4},
+      "f4": {"work": 5}
+    }
+  },
+  {
+    "name": "BST",
+    "code": 565,
+    "category": "technical",
+    "pair": {
+      "subject": 443,
+      "paired": "False"
+    },
+    "workload": {
+      "f1": {"work": 3},
+      "f2": {"work": 6},
+      "f3": {"work": 5},
+      "f4": {"work": 5}
+    }
+  },
+  {
+    "name": "Agri",
+    "code": 443,
+    "category": "technical",
+    "pair": {
+      "subject": 565,
+      "paired": "False"
+    },
+    "workload": {
+      "f1": {"work": 3},
+      "f2": {"work": 4},
+      "f3": {"work": 4},
+      "f4": {"work": 4}
+    }
+  },
+  {
+    "name": "PE",
+    "code": 1,
+    "category": "extra",
+    "workload": {
+      "f1": {"work": 1},
+      "f2": {"work": 1},
+      "f3": {"work": 1},
+      "f4": {"work": 1}
+    }
+  },
+  {
+    "name": "LS",
+    "code": 2,
+    "category": "extra",
+    "workload": {
+      "f1": {"work": 1},
+      "f2": {"work": 1},
+      "f3": {"work": 1},
+      "f4": {"work": 1}
+    }
+  }
+]

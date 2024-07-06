@@ -1,0 +1,171 @@
+[
+    {
+        "name": "Dir. Murage",
+        "id": 1,
+        "subjects": [
+            {
+                "code": 313,
+                "forms": ["f4"]
+            }
+        ],
+        "conditions": {
+            "include": {
+                "mon": [5, 6],
+                "tue": [5, 6],
+                "wed": [5, 6],
+                "thur": [5, 6],
+                "fri": [5, 6]
+            },
+            "ignore":  {}
+        }
+    },
+    {
+        "name": "Pr. Bernice",
+        "id": 2,
+        "subjects": [
+            {
+                "code": 101,
+                "forms": ["f1", "f2", "f3", "f4"]
+            },
+            {
+                "code": 2,
+                "forms": ["f1", "f2", "f3", "f4"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {}
+        }
+    },
+    {
+        "name": "Mr. Munyeki",
+        "id": 3,
+        "subjects": [
+            {
+                "code": 231,
+                "forms": ["f1", "f2", "f3", "f4"]
+            },
+            {
+                "code": 312,
+                "forms": ["f1", "f3"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {}
+        }
+    },
+    {
+        "name": "Mr. Mbugua",
+        "id": 4,
+        "subjects": [
+            {
+                "code": 312,
+                "forms": ["f2", "f4"]
+            },
+            {
+                "code": 565,
+                "forms": ["f1", "f2", "f3", "f4"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {}
+        }
+    },
+    {
+        "name": "Mr. Alex",
+        "id": 5,
+        "subjects": [
+            {
+                "code": 121,
+                "forms": ["f1", "f2", "f3", "f4"]
+            },
+            {
+                "code": 232,
+                "forms": ["f1", "f3"]
+            },
+            {
+                "code": 1,
+                "forms": ["f2"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {}
+        }
+    },
+    {
+        "name": "Ms. Macharia",
+        "id": 6,
+        "subjects": [
+            {
+                "code": 102,
+                "forms": ["f2", "f3", "f4"]
+            },
+            {
+                "code": 443,
+                "forms": ["f1", "f2", "f3", "f4"]
+            },
+            {
+                "code": 1,
+                "forms": ["f3"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {
+                "wed": [8],
+                "fri": [8]
+            }
+        }
+    },
+    {
+        "name": "Ms. Wanja",
+        "id": 7,
+        "subjects": [
+            {
+                "code": 102,
+                "forms": ["f1"]
+            },
+            {
+                "code": 311,
+                "forms": ["f1", "f2", "f3", "f4"]
+            },
+            {
+                "code": 313,
+                "forms": ["f1", "f2", "f3"]
+            },
+            {
+                "code": 1,
+                "forms": ["f1"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {}
+        }
+    },
+    {
+        "name": "Mr. Gatuma",
+        "id": 8,
+        "subjects": [
+            {
+                "code": 233,
+                "forms": ["f1", "f2", "f3", "f4"]
+            },
+            {
+                "code": 232,
+                "forms": ["f2", "f4"]
+            },
+            {
+                "code": 1,
+                "forms": ["f4"]
+            }
+        ],
+        "conditions": {
+            "include": {},
+            "ignore":  {}
+        }
+    }
+]
